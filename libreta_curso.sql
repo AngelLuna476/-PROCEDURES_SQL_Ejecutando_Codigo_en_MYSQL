@@ -1,15 +1,3 @@
-/* 
-En este script encontrarás todos los comandos que ejecutaremos durante el desarrollo de nuestro entrenamiento
-
-¡Muchos éxitos en tus estudios!
-
-Ahora que tu ambiente está preparado, llegó el momento de colocar en práctica tu código.
-
-¡Manos a la obra!
-*/
-
--- PROYECTO DEL AULA ANTERIOR 2
-
 DELIMITER $$
 CREATE DEFINER=`root`@`localhost` PROCEDURE `hola_mundo`()
 BEGIN
@@ -110,7 +98,8 @@ DELIMITER ;
 
 CALL atribuir_valores;
 
--- PROYECTO DEL AULA ANTERIOR 3
+
+
 
 DELIMITER $$
 CREATE DEFINER=`root`@`localhost` PROCEDURE `manipulacion`()
@@ -207,7 +196,9 @@ DELIMITER ;
 
 CALL mostrar_sabor('1101035');
 
--- PROYECTO DEL AULA ANTERIOR 4
+
+
+
 
 SELECT * FROM tabla_de_clientes;
 
@@ -379,7 +370,8 @@ DELIMITER ;
 
 CALL looping(1,10);
 
--- PROYECTO FINAL
+
+
 
 DELIMITER $$
 CREATE DEFINER=`root`@`localhost` PROCEDURE `problema_select_into`()
